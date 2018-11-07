@@ -1,0 +1,63 @@
+.name {
+    background-color: #4eaaa5;
+    width: 200px;
+    height: 75px;
+    margin-left: 160px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    line-height: 66px;
+}
+
+.navbar {
+    padding: 0px;
+    border-bottom: solid gray 6px;
+}
+
+.navbar-nav {
+    margin-left: 540px;
+}
+
+.navbar-light .navbar-brand {
+    color: white;
+}
+
+.jumbotron {
+    width: 960px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 32px;
+    background-color: white;
+    min-height: 400px;
+    margin-bottom: 92px;
+}
+
+.profile-picture {
+    width: auto;
+    height: auto;
+    max-width: 175px;
+    max-height: 175px;
+    float: left;
+}
+
+.display-4 {
+    border-bottom: solid gray 3px;
+    color: #4eaaa5;
+    font-size: 35px;
+}
+
+.lead {
+    font-size: 20px;
+    padding-left: 200px;
+}
+
+.footer {
+    width: 100%;
+    background-color: gray;
+    height: 75px;
+    color: white;
+    margin: auto;
+    border-top: solid #4eaaa5 6px;
+    padding: 20px 600px 20px 585px;
+}
