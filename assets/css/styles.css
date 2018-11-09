@@ -2,12 +2,12 @@
     background-color: #4eaaa5;
     width: 200px;
     height: 75px;
-    margin-left: 160px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
     color: white;
     text-align: center;
     line-height: 66px;
+    margin-left: 6.55%
 }
 
 .navbar {
@@ -15,29 +15,24 @@
     border-bottom: solid gray 6px;
 }
 
-.navbar-nav {
-    margin-left: 540px;
-}
-
 .navbar-light .navbar-brand {
     color: white;
 }
 
 .jumbotron {
-    width: 960px;
-    margin: auto;
+    width: 100%;
     margin-top: 20px;
     padding: 32px;
     background-color: white;
-    min-height: 400px;
+    min-height: 475px;
     margin-bottom: 92px;
 }
 
 .profile-picture {
     width: auto;
     height: auto;
-    max-width: 175px;
-    max-height: 175px;
+    max-width: 200px;
+    max-height: 200px;
     float: left;
 }
 
@@ -52,11 +47,18 @@
 }
 
 .footer {
-    width: 100%;
     background-color: gray;
-    height: 75px;
     color: white;
-    margin: auto;
     border-top: solid #4eaaa5 6px;
-    padding: 20px 600px 20px 585px;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    text-align: center;
+}
+
+.background {
+    width: 100%;
 }
