@@ -24,8 +24,6 @@
     margin-top: 20px;
     padding: 32px;
     background-color: white;
-    min-height: 475px;
-    margin-bottom: 92px;
 }
 
 .profile-picture {
@@ -51,12 +49,12 @@
     color: white;
     border-top: solid #4eaaa5 6px;
     width: 100%;
-    position: absolute;
+    height: 60px;
+    text-align: center;
+    position: fixed;
+    left: 0;
     right: 0;
     bottom: 0;
-    left: 0;
-    padding: 1rem;
-    text-align: center;
 }
 
 .background {
@@ -66,3 +64,11 @@
 #exampleInputPassword2 {
     min-height: 150px;
 }
+
+#wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+
+
